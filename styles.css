@@ -1,0 +1,43 @@
+html {
+  font-size: 10px;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Courier, 'Courier New', monospace;
+  font-size: 1.6rem;
+  background: #fffeff;
+  background-image: url(images/background.jpg);
+  background-repeat: repeat;
+  background-size: default;
+  color: #fff;
+	
+}
+a {
+  color: #c39;
+}
+
+main {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+.button {
+    background-color: #4CAF50; 
+    border: none;
+    cursor: url('images/comunista.png'),default;
+    position:fixed;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50%;
+}
