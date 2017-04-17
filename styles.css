@@ -22,6 +22,7 @@ a {
 
 main {
   margin: 0;
+cursor: url('images/comunista.png'),default;
   text-align: center;
 }
 
@@ -32,7 +33,7 @@ footer {
 .button {
     background-color: #4CAF50; 
     border: none;
-    cursor: url('images/comunista.png'),default;
+    
     color: white;
     position:fixed;
     padding: 15px 32px;
