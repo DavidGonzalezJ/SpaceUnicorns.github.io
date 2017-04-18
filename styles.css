@@ -14,8 +14,11 @@ body {
   color: #fff;
 	
 }
+
+
+
 a {
-  color: #a19;
+  color: #000;
 }
 .parallax {
     /* The image used */
@@ -38,9 +41,6 @@ cursor: url('images/comunista.png'),default;
 
 footer {
   text-align: left;
-
-    background-color: #140FB2;
-
 
 }
 
