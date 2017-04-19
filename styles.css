@@ -1,10 +1,13 @@
 html {
   font-size: 10px;
   -webkit-font-smoothing: antialiased;
+cursor: url('images/comunista.png'),default;
+
 }
 
 
 body {
+
   padding: 0;
   margin: 0;
   font-family: Courier, 'Courier New', monospace;
@@ -12,10 +15,19 @@ body {
   background: #fffeff;
   background-image: url(images/background.jpg);
   color: #fff;
+
 	
 }
-
-
+izq {
+  padding: 0;
+  margin: 0;
+  font-family: Courier, 'Courier New', monospace;
+  font-size: 1.6rem;
+  background: #fffeff;
+  background-image: url(images/background.jpg);
+  color: #fff;
+text-align:left;
+}
 
 a {
   color: #000;
@@ -33,10 +45,37 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.parallax2 {
+    /* The image used */
+    background-image: url(images/paginas1.png);
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
 main {
   margin: 0;
-cursor: url('images/comunista.png'),default;
   text-align: center;
+
+    background-image: url(images/parallax2.jpg);
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+      
+    background-size: cover;
+
 }
 
 footer {
