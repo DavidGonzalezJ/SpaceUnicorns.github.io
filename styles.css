@@ -1,7 +1,7 @@
 html {
   font-size: 10px;
   -webkit-font-smoothing: antialiased;
-cursor: url('images/comunista.png'),default;
+
 
 }
 
@@ -20,6 +20,7 @@ body {
 
 a {
   color: #000;
+     text-decoration: none;
 }
 
 #personaje{
@@ -88,3 +89,13 @@ background-image: url(images/nebula.jpg);
     font-size: 20px;
     border-radius: 55%;
 }
+.buttonn {
+    background-color: #6434E9;
+      margin:-17px 0px 0px -155px;
+
+   border-radius: 3%;
+    text-align: : right;
+position:absolute;
+    display: inline-block;
+    font-size: 40px;
+    }
