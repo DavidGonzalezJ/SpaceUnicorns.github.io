@@ -42,11 +42,11 @@ a {
 }
 .parallax2 {
     /* The image used */
-    background-image: url(images/paginas1.png);
+    background-image: url(images/menu.png);
 
     /* Set a specific height */
     min-height: 500px; 
-
+    width: 100%;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -72,8 +72,13 @@ main {
 }
 
 footer {
-  text-align: left;
-
+  color:#FFF;
+}
+.equipo{
+   text-align: left;
+ padding: 16px 20px;
+  margin:50px 50px 0px 50px;
+  display: inline-block;
 }
 
 .button {
@@ -90,12 +95,23 @@ background-image: url(images/nebula.jpg);
     border-radius: 55%;
 }
 .buttonn {
-    background-color: #6434E9;
+    background-color: #E2BCD7;
       margin:-17px 0px 0px -155px;
 
-   border-radius: 3%;
+   border-radius: 10%;
     text-align: : right;
 position:absolute;
     display: inline-block;
     font-size: 40px;
     }
+
+.persona{
+  width:30.66%;
+   margin-left:10%;
+  margin-right: 7%;
+  height: 490px;
+  overflow: hidden;
+  text-align: center;
+  color:#000;
+  float: left;
+}
